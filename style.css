@@ -1,0 +1,29 @@
+html { box-sizing: border-box; }
+*, ::before, ::after { box-sizing: inherit; }
+
+:root {
+  --font-base: "Source Sans 3", sans-serif;
+  --font-special: "Montserrat", sans-serif;
+
+  --color-page-bg: #444444;
+  --color-visual-bg: #f0f0f0;
+}
+
+
+body {
+  font-family: var(--font-base);
+  font-optical-sizing: auto;
+  margin: 0;
+  background: var(--color-page-bg);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-special);
+  font-optical-sizing: auto;
+}
+
+.container {
+  width: 1040px;
+  margin-inline: auto;
+  background: white;
+}
